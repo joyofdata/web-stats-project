@@ -10,6 +10,10 @@ from oauth2client.tools import run
 # Declare constants and set configuration values
 
 # The file with the OAuth 2.0 Client details for authentication and authorization.
+# 
+# formatting of file detailed here:
+# https://developers.google.com/analytics/solutions/articles/hello-analytics-api#register_project
+
 CLIENT_SECRETS = 'client_secrets.json'
 
 # A helpful message to display if the CLIENT_SECRETS file is missing.
